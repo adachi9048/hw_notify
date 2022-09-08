@@ -6,7 +6,6 @@ export NOTIFY_ONLYBYONE="已可领取&已成熟&重新登录"
 ```
 ```
 ## ❖ 自定义推送通知模块功能
-# 默认使用项目提供的 sendNotify.js 推送通知模块，配置教程详见官网 https://supermanito.github.io/Helloworld/#/config/推送通知
 # 如想使用第三方推送通知模块请将下方变量赋值为 "true" ，并在 config 目录下存放您的 sendNotify.js 脚本
 # 注意如若使用第三方通知模块可能会出现兼容性问题导致项目部分功能不可用
 EnableCustomNotify="true"
