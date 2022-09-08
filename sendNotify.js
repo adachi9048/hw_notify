@@ -221,12 +221,12 @@ if (process.env.NOTIFY_ONLYBYONE) {
 }
 notify_only_text = notify_only_text.replace(/&/g, "|");
 
-let strUidFile ="/jd/config/WxPusherUid.json";
+let strUidFile ="/jd/config/account.json";
 
 let UidFileexists = fs.existsSync(strUidFile);
 let TempCKUid = [];
 if (UidFileexists) {
-    console.log("检测到一对一Uid文件WxPusherUid.json，载入...");
+    console.log("检测到一对一Uid文件account.json，载入...");
     TempCKUid = fs.readFileSync(strUidFile, 'utf-8');
     if (TempCKUid) {
         TempCKUid = TempCKUid.toString();
@@ -1086,7 +1086,7 @@ function getUids (strNickName) {
     let strUid = " ";
     if (TempCKUid) {
         for (let i = 0; i < TempCKUid.length; i++) {
-            if (strNickName == TempCKUid[i].nickname) {
+            if (strNickName == TempCKUid[i].remarks) {
                 strUid = TempCKUid[i].Uid;
                 break;
             }
