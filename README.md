@@ -7,6 +7,6 @@ export NOTIFY_ONLYBYONE="已可领取&已成熟&重新登录&京东资产变动�
 ```
 ## ❖ 使用此模块
 # 请将下方变量赋值为 "true" ，在 config 目录下存放您的 sendNotify.js 脚本，并配置好目录下的 account.json
-# account.json已在仓库贴出
+# account.json模板已在仓库贴出
 EnableCustomNotify="true"
 ```
