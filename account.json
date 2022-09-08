@@ -2,7 +2,7 @@
     {
       "pt_pin": "pt_pin1（必填）",
       "ws_key": "wskey的值",
-      "remarks": "备注1（必填）",
+      "remarks": "备注1，如果ptpin和京东昵称一致则任意，如不一致则填京东昵称（必填）",
       "Uid": "UID_AAAAAAAAAAA（必填）",
       "config": {
         "ep": {}
