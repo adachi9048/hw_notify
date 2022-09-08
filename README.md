@@ -6,6 +6,6 @@ export NOTIFY_ONLYBYONE="已可领取&已成熟&重新登录&京东资产变动�
 ```
 ```
 ## ❖ 使用此模块
-# 请将下方变量赋值为 "true" ，在 config 目录下存放您的 sendNotify.js 脚本，并将配置好的 WxPusherUid.json 放置于该目录
+# 请将下方变量赋值为 "true" ，在 config 目录下存放您的 sendNotify.js 脚本，并配置好 account.json 
 EnableCustomNotify="true"
 ```
