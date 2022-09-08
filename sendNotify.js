@@ -962,7 +962,7 @@ function wxPusherNotify(text, desp) {
         if (WP_APP_TOKEN) {
             let topicIds = [];
             let obs = strSeparate(text,desp);
-            if (obs.postFlag == 1) {
+            if (obs.maxIndex > -1) {
                 for ( let i = 0 ; i <= obs.maxIndex ; i++ ) {
                     if (obs.uid[i] !== " ") {
                         let ifAuthor = RegExp(end_txt);
