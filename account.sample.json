@@ -1,9 +1,9 @@
 [
     {
-      "pt_pin": "pt_pin1（必填）",
+      "pt_pin": "pt_pin1（必填项）",
       "ws_key": "wskey的值",
-      "remarks": "备注1（必填）",
-      "Uid": "UID_AAAAAAAAAAA（必填）",
+      "remarks": "任意备注1（必填项）",
+      "Uid": "UID_AAAAAAAAAAA（必填项）",
       "config": {
         "ep": {}
       }
@@ -11,7 +11,7 @@
     {
       "pt_pin": "pt_pin2",
       "ws_key": "",
-      "remarks": "备注2",
+      "remarks": "任意备注2",
       "Uid": "UID_BBBBBBBBBBB",
       "config": {
         "ep": {}
@@ -20,7 +20,7 @@
     {
       "pt_pin": "pt_pin3",
       "ws_key": "",
-      "remarks": "备注3",
+      "remarks": "任意备注3",
       "Uid": "UID_CCCCCCCCCCC",
       "config": {
         "ep": {}
